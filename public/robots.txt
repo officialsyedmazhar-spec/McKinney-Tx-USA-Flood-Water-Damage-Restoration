@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Direct sitemap location
-Sitemap: https://mckinneyfloodrestoration.com/sitemap.xml
+Sitemap: https://mc-kinney-tx-usa-flood-water-damage.vercel.app/sitemap.xml
