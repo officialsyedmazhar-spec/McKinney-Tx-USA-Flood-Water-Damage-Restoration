@@ -1,87 +1,375 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- Homepage -->
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://mckinneyfloodrestoration.com/</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- All Services Directory -->
   <url>
-    <loc>https://mckinneyfloodrestoration.com/#services</loc>
+    <loc>https://mckinneyfloodrestoration.com/services</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- McKinney Service Areas -->
   <url>
-    <loc>https://mckinneyfloodrestoration.com/#service-areas</loc>
+    <loc>https://mckinneyfloodrestoration.com/service-areas</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- Emergency Action Guide -->
   <url>
-    <loc>https://mckinneyfloodrestoration.com/#emergency-guide</loc>
+    <loc>https://mckinneyfloodrestoration.com/emergency-guide</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- About McKinney Team -->
   <url>
-    <loc>https://mckinneyfloodrestoration.com/#about</loc>
+    <loc>https://mckinneyfloodrestoration.com/about</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- Contact & 24/7 Dispatch -->
   <url>
-    <loc>https://mckinneyfloodrestoration.com/#contact</loc>
+    <loc>https://mckinneyfloodrestoration.com/contact</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- Top Core Services -->
   <url>
-    <loc>https://mckinneyfloodrestoration.com/#service/burst-pipe-water-damage-restoration-mckinney-usa</loc>
+    <loc>https://mckinneyfloodrestoration.com/services/burst-pipe-emergencies</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mckinneyfloodrestoration.com/#service/slab-leak-water-damage-repair-mckinney-tx</loc>
+    <loc>https://mckinneyfloodrestoration.com/services/water-extraction-removal</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mckinneyfloodrestoration.com/#service/emergency-flood-water-extraction-mckinney-tx</loc>
+    <loc>https://mckinneyfloodrestoration.com/services/drying-moisture-detection</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mckinneyfloodrestoration.com/#service/black-mold-remediation-containment-mckinney-tx</loc>
+    <loc>https://mckinneyfloodrestoration.com/services/flooring-walls-ceilings</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mckinneyfloodrestoration.com/#service/hardwood-floor-water-damage-drying-mckinney-tx</loc>
+    <loc>https://mckinneyfloodrestoration.com/services/sanitization-mold-prevention</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://mckinneyfloodrestoration.com/#service/raw-sewage-backup-cleanup-sanitization-mckinney-tx</loc>
+    <loc>https://mckinneyfloodrestoration.com/services/contents-documentation-rebuild</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/burst-pipe-water-damage-restoration-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/broken-pipe-water-damage-cleanup-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/water-pipe-break-cleanup-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/emergency-burst-pipe-response-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/emergency-water-extraction-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/standing-water-removal-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/water-extraction-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/water-removal-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/carpet-water-extraction-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/floor-drying-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/subfloor-drying-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/structural-drying-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/wall-drying-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/ceiling-drying-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/moisture-detection-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/moisture-mapping-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/thermal-imaging-inspection-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/water-damage-assessment-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/hidden-water-damage-detection-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/water-migration-assessment-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/dehumidification-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/air-movement-drying-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/post-drying-moisture-verification-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/hardwood-floor-water-damage-cleanup-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/laminate-flooring-water-damage-cleanup-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/tile-grout-water-damage-cleanup-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/drywall-water-damage-assessment-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/drywall-removal-replacement-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/ceiling-water-damage-restoration-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/wall-water-damage-restoration-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/structural-material-restoration-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/water-damaged-flooring-restoration-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/water-damaged-wall-restoration-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/water-damaged-ceiling-restoration-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/sanitization-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/disinfection-of-affected-areas-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/odor-control-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/mold-prevention-after-water-damage-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/sewage-contaminated-water-cleanup-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/contaminated-water-cleanup-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/affected-area-containment-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/contents-protection-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/furniture-water-damage-protection-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/personal-belongings-drying-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/water-damaged-material-removal-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/debris-removal-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/damage-documentation-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/restoration-documentation-for-insurance-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/water-damage-repair-coordination-mckinney-tx</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mckinneyfloodrestoration.com/services/reconstruction-after-water-damage-mckinney-tx</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
