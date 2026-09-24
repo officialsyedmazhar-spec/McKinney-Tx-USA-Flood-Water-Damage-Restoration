@@ -203,17 +203,17 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         </div>
 
         {/* Copyright & SEO Geo Attribution */}
-        <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 text-center sm:text-left">
-          <div>
+        <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400 text-center sm:text-left">
+          <div className="text-slate-300 font-medium">
             © {new Date().getFullYear()} McKinney Flood & Water Damage Restoration. All rights reserved. McKinney, Texas.
           </div>
 
-          <div className="flex items-center gap-4 text-slate-500">
-            <span>Local McKinney, TX Contractor</span>
-            <span>•</span>
-            <span>24/7 Dispatch Hotline</span>
-            <span>•</span>
-            <span>IICRC S500 Standards</span>
+          <div className="flex items-center gap-4 text-slate-300 font-semibold">
+            <span className="text-slate-200">Local McKinney, TX Contractor</span>
+            <span className="text-slate-500">•</span>
+            <span className="text-slate-200">24/7 Dispatch Hotline</span>
+            <span className="text-slate-500">•</span>
+            <span className="text-slate-200">IICRC S500 Standards</span>
           </div>
         </div>
 

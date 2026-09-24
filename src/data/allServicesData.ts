@@ -144,7 +144,7 @@ export const ALL_SERVICES: ServiceItem[] = [
     shortDesc: "Heavy-duty extraction, sanitization, and restoration after sudden pressurized water pipe breaks in Collin County.",
     fullDesc: "Sudden pipe breaks cause catastrophic water damage across multiple floors. Our McKinney certified restoration technicians extract pooling water, remove ruined insulation, and treat wet studs with botanical antimicrobials.",
     iconName: "Waves",
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
     features: ["Multi-story water mitigation", "Ceiling collapse hazard prevention", "Industrial moisture extraction", "Insurance photo documentation"],
     equipment: ["Multi-Stage Vacuum Extractors", "Moisture Probes", "HEPA Air Scrubbers", "Industrial Dehumidifiers"],
     process: [
@@ -214,7 +214,7 @@ export const ALL_SERVICES: ServiceItem[] = [
     shortDesc: "Professional residential and commercial water extraction services adhering to IICRC S500 standard in McKinney, TX.",
     fullDesc: "Comprehensive extraction for all types of water loss. We utilize weighted extraction mats, vacuum tools, and moisture sensors to ensure every drop of free water is eliminated from your property.",
     iconName: "Droplets",
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
     features: ["IICRC certified technicians", "Residential & commercial capacity", "Thermal moisture inspection", "Full dry guarantee"],
     equipment: ["Extraction Rovers", "Floor Squeegee Tools", "Commercial Wet-Vac Rigs", "Digital Moisture Meters"],
     process: [
@@ -282,7 +282,7 @@ export const ALL_SERVICES: ServiceItem[] = [
     shortDesc: "Advanced negative pressure and positive airflow subfloor drying for plywood, OSB, and concrete slabs in McKinney.",
     fullDesc: "When water penetrates beneath your surface flooring, it saturates OSB or plywood subflooring. Wet subflooring loses structural rigidity and causes soft spots. We use injected drying mats to dry subfloors in place without demolition.",
     iconName: "Droplets",
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
     features: ["Injected drying mat systems", "Prevents plywood delamination", "Preserves floor joist strength", "Daily moisture verification"],
     equipment: ["Floor Drying Mats", "High-Pressure Vacuum Blowers", "Pin Moisture Probes", "Desiccant Units"],
     process: [
@@ -369,7 +369,7 @@ export const ALL_SERVICES: ServiceItem[] = [
     shortDesc: "Detailed photographic and digital moisture mapping documenting the full path of water migration for insurance claims.",
     fullDesc: "Moisture mapping is the cornerstone of insurance approval. We create a room-by-room digital schematic showing exact moisture percentages, water migration pathways, and equipment placement logs.",
     iconName: "Search",
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
     features: ["Room-by-room digital schematics", "Accepted by all insurance carriers", "Daily progression tracking", "Clearance dry certification"],
     equipment: ["Digital Moisture Mapping Software", "FLIR Thermal Imagers", "Electronic Moisture Sensors", "GPS Stamping Tools"],
     process: [
@@ -454,7 +454,7 @@ export const ALL_SERVICES: ServiceItem[] = [
     shortDesc: "Industrial Low-Grain Refrigerant (LGR) dehumidification fleets removing dozens of gallons of airborne water vapor daily.",
     fullDesc: "As air movers blow water out of wet building materials, that water turns into airborne humidity. Without commercial dehumidifiers, this moisture recondenses onto ceilings and furniture. Our Phoenix and Dri-Eaz LGR dehumidifiers pull moisture down to single-digit relative humidity.",
     iconName: "Wind",
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
     features: ["LGR Low-Grain Refrigerant technology", "Pulls 160+ pints per unit per day", "Operates efficiently in high heat", "Continuous pump-out lines"],
     equipment: ["Phoenix 250 MAX LGRs", "Dri-Eaz Evolution Dehumidifiers", "Condensate Discharge Lines", "Digital Thermo-Hygrometers"],
     process: [
@@ -541,7 +541,7 @@ export const ALL_SERVICES: ServiceItem[] = [
     shortDesc: "Deep extraction, sanitization, and sub-tile drying for ceramic, porcelain, and natural stone tile in McKinney homes.",
     fullDesc: "While tile surfaces are resilient, grout lines are porous cement that absorbs contaminated flood water. Water travels under tiles, softening thin-set mortar and causing loose, hollow tiles. We dry the sub-tile foundation to save your tile installation.",
     iconName: "Hammer",
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
     features: ["Porous grout sanitization", "Hollow tile bond acoustic testing", "Concrete slab drying", "Mildew stain removal"],
     equipment: ["Rotary Tile Cleaners", "Acoustic Tile Hammers", "High-Flow Dehumidifiers", "Steam Sanitizers"],
     process: [
@@ -626,7 +626,7 @@ export const ALL_SERVICES: ServiceItem[] = [
     shortDesc: "Restoring load-bearing timber, floor joists, concrete slabs, and architectural elements in McKinney, TX.",
     fullDesc: "Water intrusion attacks the core skeleton of your property. We apply engineering-grade drying protocols to load-bearing framing, laminated beams (LVL), and concrete foundations to ensure your home remains safe and sound.",
     iconName: "Hammer",
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
     features: ["Load-bearing framing preservation", "Concrete slab moisture evaporation", "Engineered truss & joist drying", "Structural integrity sign-off"],
     equipment: ["Desiccant Dehumidifiers", "Heavy-Duty Heat Drying Systems", "Concrete Core Moisture Sensors", "Thermal Cameras"],
     process: [
@@ -730,7 +730,7 @@ export const ALL_SERVICES: ServiceItem[] = [
     shortDesc: "Molecular-level odor elimination using hydroxyl generators and thermal fogging to eliminate damp musty smells in McKinney.",
     fullDesc: "Water damage leaves a stubborn, musty odor caused by microbial volatile organic compounds (mVOCs). Scented sprays only mask the smell temporarily. We deploy industrial hydroxyl generators and thermal foggers to neutralize odor molecules at the molecular level.",
     iconName: "ShieldCheck",
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
     features: ["Hydroxyl generator technology", "Safe for occupants and pets during operation", "Penetrates deep into upholstery and framing", "Permanent odor elimination"],
     equipment: ["Hydroxyl Atmospheric Processors", "Thermal Foggers", "Carbon Filter Air Scrubbers", "Ozone Generators"],
     process: [
@@ -798,7 +798,7 @@ export const ALL_SERVICES: ServiceItem[] = [
     shortDesc: "Erecting airtight plastic zip-wall barriers and negative air machines to prevent moisture and spore cross-contamination.",
     fullDesc: "During water mitigation and demolition, airborne mold spores, dust, and humid air can easily spread to clean bedrooms and living areas. We install airtight 6-mil polyethylene containment barriers with zippered access doors and HEPA negative pressure machines.",
     iconName: "ShieldCheck",
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
     features: ["6-mil poly containment barriers", "Zipper entry airlocks", "Negative air pressure differentials", "Zero cross-contamination guarantee"],
     equipment: ["Spring-Loaded Tension Poles", "6-mil Flame-Retardant Poly", "HEPA Negative Air Units", "Differential Manometers"],
     process: [
@@ -868,7 +868,7 @@ export const ALL_SERVICES: ServiceItem[] = [
     shortDesc: "Safe, contained demo and responsible disposal of ruined building materials adhering to McKinney city guidelines.",
     fullDesc: "Non-salvageable materials (saturated wet insulation, buckled particle board, contaminated carpet pad) hold gallons of water and must be removed to allow structural framing to dry. We perform clean, dustless demolition with off-site disposal.",
     iconName: "Hammer",
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
     features: ["Contained demolition", "Heavy-duty debris bagging", "Eco-friendly recycling where possible", "Insurance itemized tear-out logs"],
     equipment: ["Dust Containment Walls", "HEPA Negative Air Units", "Demolition Saws", "Heavy-Duty Disposal Trailers"],
     process: [

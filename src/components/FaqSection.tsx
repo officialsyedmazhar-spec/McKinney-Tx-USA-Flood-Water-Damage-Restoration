@@ -60,12 +60,12 @@ export const FaqSection: React.FC<{ onNavigateToContact: () => void }> = ({ onNa
         </div>
 
         {/* Still have questions banner */}
-        <div className="mt-10 p-6 bg-slate-100 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+        <div className="mt-10 p-6 bg-slate-100 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left border border-slate-300">
           <div>
-            <h4 className="font-bold text-slate-900 text-sm sm:text-base">
+            <h3 className="font-extrabold text-slate-950 text-base sm:text-lg">
               Have an urgent or unique water emergency?
-            </h4>
-            <p className="text-xs sm:text-sm text-slate-500">
+            </h3>
+            <p className="text-xs sm:text-sm text-slate-700 font-medium mt-0.5">
               Speak directly with a certified McKinney water restoration technician right now.
             </p>
           </div>
@@ -73,14 +73,14 @@ export const FaqSection: React.FC<{ onNavigateToContact: () => void }> = ({ onNa
           <div className="flex items-center gap-3">
             <a
               href={`tel:${COMPANY_INFO.phoneClean}`}
-              className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs sm:text-sm rounded-lg flex items-center gap-1.5 transition-colors"
+              className="px-4 py-2.5 bg-blue-700 hover:bg-blue-800 text-white font-extrabold text-xs sm:text-sm rounded-lg flex items-center gap-1.5 transition-colors shadow-xs"
             >
-              <Phone className="w-3.5 h-3.5" />
+              <Phone className="w-3.5 h-3.5 text-white" />
               <span>{COMPANY_INFO.phone}</span>
             </a>
             <button
               onClick={onNavigateToContact}
-              className="px-4 py-2 bg-white hover:bg-slate-50 text-slate-700 font-bold text-xs sm:text-sm rounded-lg border border-slate-300 transition-colors cursor-pointer"
+              className="px-4 py-2.5 bg-white hover:bg-slate-50 text-slate-900 font-bold text-xs sm:text-sm rounded-lg border border-slate-400 transition-colors cursor-pointer"
             >
               Ask Online
             </button>

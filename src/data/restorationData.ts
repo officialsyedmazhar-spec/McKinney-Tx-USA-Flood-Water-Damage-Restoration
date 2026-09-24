@@ -93,7 +93,7 @@ const LEGACY_SERVICES: ServiceItem[] = [
     shortDesc: "High-capacity pump-out and emergency extraction for flash floods, storm surges, and overflowing creeks in Collin County.",
     fullDesc: "When severe North Texas storms and flash flooding overwhelm McKinney drainage or rivers, floodwater enters homes carrying silt, chemicals, and bio-contaminants. Our emergency flood extraction crews utilize commercial trash pumps, weighted carpet extractors, and containment barriers to remove outdoor floodwaters swiftly and safely.",
     iconName: "Waves",
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80",
     features: [
       "High-Volume Submersible & Gas-Powered Trash Pumps",
       "Contaminated Floodwater (Category 3) Decontamination",

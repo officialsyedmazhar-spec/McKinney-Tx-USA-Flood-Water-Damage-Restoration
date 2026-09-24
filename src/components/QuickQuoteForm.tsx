@@ -59,22 +59,22 @@ export const QuickQuoteForm: React.FC<QuickQuoteFormProps> = ({
   return (
     <div className={`bg-white rounded-2xl shadow-xl border border-slate-200/90 overflow-hidden ${isCompact ? 'p-5' : 'p-6 sm:p-8'}`}>
       <div className="border-b border-slate-100 pb-4 mb-5">
-        <div className="flex items-center gap-2 text-xs font-bold text-blue-700 uppercase tracking-wider mb-1">
+        <div className="flex items-center gap-2 text-xs font-bold text-blue-800 uppercase tracking-wider mb-1">
           <Clock className="w-4 h-4 text-blue-700 animate-pulse" />
           <span>Priority McKinney Dispatch Line</span>
         </div>
-        <h3 className="text-xl sm:text-2xl font-extrabold text-slate-900 leading-tight">
+        <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 leading-tight">
           {title}
-        </h3>
+        </h2>
         {subtitle && (
-          <p className="text-xs sm:text-sm text-slate-500 mt-1">
+          <p className="text-xs sm:text-sm text-slate-700 mt-1">
             {subtitle}
           </p>
         )}
       </div>
 
       {errorMsg && (
-        <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-xl text-red-700 text-xs flex items-center gap-2">
+        <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-xl text-red-800 text-xs flex items-center gap-2 font-medium">
           <AlertCircle className="w-4 h-4 shrink-0" />
           <span>{errorMsg}</span>
         </div>
@@ -84,8 +84,8 @@ export const QuickQuoteForm: React.FC<QuickQuoteFormProps> = ({
         {/* Full Name & Phone Number */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
           <div>
-            <label className="block text-xs font-bold text-slate-700 mb-1">
-              Your Full Name <span className="text-red-500">*</span>
+            <label className="block text-xs font-bold text-slate-800 mb-1">
+              Your Full Name <span className="text-red-600">*</span>
             </label>
             <input
               type="text"
@@ -93,13 +93,13 @@ export const QuickQuoteForm: React.FC<QuickQuoteFormProps> = ({
               placeholder="e.g. John Miller"
               value={formData.fullName}
               onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
-              className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-lg text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all"
+              className="w-full px-3.5 py-2.5 bg-white border border-slate-400 rounded-lg text-sm text-slate-900 placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all font-medium"
             />
           </div>
 
           <div>
-            <label className="block text-xs font-bold text-slate-700 mb-1">
-              Phone Number <span className="text-red-500">*</span>
+            <label className="block text-xs font-bold text-slate-800 mb-1">
+              Phone Number <span className="text-red-600">*</span>
             </label>
             <input
               type="tel"
@@ -107,7 +107,7 @@ export const QuickQuoteForm: React.FC<QuickQuoteFormProps> = ({
               placeholder="(972) 000-0000"
               value={formData.phoneNumber}
               onChange={(e) => setFormData({ ...formData, phoneNumber: e.target.value })}
-              className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-lg text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all font-semibold"
+              className="w-full px-3.5 py-2.5 bg-white border border-slate-400 rounded-lg text-sm text-slate-900 placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all font-bold"
             />
           </div>
         </div>
@@ -115,7 +115,7 @@ export const QuickQuoteForm: React.FC<QuickQuoteFormProps> = ({
         {/* Address & McKinney Zip Code strictly 75069, 75070, 75071 */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5">
           <div className="sm:col-span-2">
-            <label className="block text-xs font-bold text-slate-700 mb-1">
+            <label className="block text-xs font-bold text-slate-800 mb-1">
               McKinney Property Address
             </label>
             <input
@@ -123,18 +123,18 @@ export const QuickQuoteForm: React.FC<QuickQuoteFormProps> = ({
               placeholder="e.g. 1420 Stonebridge Dr, McKinney, TX"
               value={formData.streetAddress}
               onChange={(e) => setFormData({ ...formData, streetAddress: e.target.value })}
-              className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-lg text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all"
+              className="w-full px-3.5 py-2.5 bg-white border border-slate-400 rounded-lg text-sm text-slate-900 placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all font-medium"
             />
           </div>
 
           <div>
-            <label className="block text-xs font-bold text-slate-700 mb-1">
+            <label className="block text-xs font-bold text-slate-800 mb-1">
               McKinney Zip Code
             </label>
             <select
               value={formData.zipCode}
               onChange={(e) => setFormData({ ...formData, zipCode: e.target.value })}
-              className="w-full px-3 py-2.5 bg-slate-50 border border-slate-300 rounded-lg text-sm font-semibold text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all"
+              className="w-full px-3 py-2.5 bg-white border border-slate-400 rounded-lg text-sm font-bold text-slate-950 focus:outline-none focus:ring-2 focus:ring-blue-600 transition-all cursor-pointer"
             >
               <option value="75069">75069 (Downtown / Central McKinney)</option>
               <option value="75070">75070 (Stonebridge / Craig Ranch)</option>
@@ -146,13 +146,13 @@ export const QuickQuoteForm: React.FC<QuickQuoteFormProps> = ({
         {/* Damage Type & Urgency */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
           <div>
-            <label className="block text-xs font-bold text-slate-700 mb-1">
+            <label className="block text-xs font-bold text-slate-800 mb-1">
               Water Damage Situation
             </label>
             <select
               value={formData.waterSource}
               onChange={(e) => setFormData({ ...formData, waterSource: e.target.value })}
-              className="w-full px-3 py-2.5 bg-slate-50 border border-slate-300 rounded-lg text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all"
+              className="w-full px-3 py-2.5 bg-white border border-slate-400 rounded-lg text-sm font-bold text-slate-950 focus:outline-none focus:ring-2 focus:ring-blue-600 transition-all cursor-pointer"
             >
               <option value="Burst Pipe / Frozen Plumbing">Burst Pipe / Frozen Plumbing</option>
               <option value="Appliance Leak (Water Heater, Dishwasher)">Appliance Leak (Water Heater/Washer)</option>
@@ -165,13 +165,13 @@ export const QuickQuoteForm: React.FC<QuickQuoteFormProps> = ({
           </div>
 
           <div>
-            <label className="block text-xs font-bold text-slate-700 mb-1">
+            <label className="block text-xs font-bold text-slate-800 mb-1">
               Dispatch Request
             </label>
             <select
               value={formData.urgency}
               onChange={(e) => setFormData({ ...formData, urgency: e.target.value as any })}
-              className="w-full px-3 py-2.5 bg-blue-50/70 border border-blue-200 text-blue-950 font-semibold rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all"
+              className="w-full px-3 py-2.5 bg-blue-100/90 border border-blue-400 text-blue-950 font-bold rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-600 transition-all cursor-pointer"
             >
               <option value="immediate">🚨 Immediate Quick Service Dispatch</option>
               <option value="within-4-hours">⏰ Today (Within 2-4 Hours)</option>
@@ -182,13 +182,13 @@ export const QuickQuoteForm: React.FC<QuickQuoteFormProps> = ({
 
         {/* Standing Water Status */}
         <div>
-          <label className="block text-xs font-bold text-slate-700 mb-1">
+          <label className="block text-xs font-bold text-slate-800 mb-1">
             Current Standing Water Status
           </label>
           <select
             value={formData.standingWater}
             onChange={(e) => setFormData({ ...formData, standingWater: e.target.value })}
-            className="w-full px-3 py-2.5 bg-slate-50 border border-slate-300 rounded-lg text-xs sm:text-sm text-slate-900 focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all font-medium"
+            className="w-full px-3 py-2.5 bg-white border border-slate-400 rounded-lg text-xs sm:text-sm text-slate-950 focus:ring-2 focus:ring-blue-600 transition-all font-bold cursor-pointer"
           >
             <option value="Yes (Over 2 inches)">Yes (Over 2 inches standing water)</option>
             <option value="Yes (Soaked carpet / puddles)">Yes (Soaked carpets / wet flooring)</option>

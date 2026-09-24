@@ -228,24 +228,24 @@ export const RestorationProcessTimeline: React.FC = () => {
                   <div className="flex items-center justify-between w-full mb-1">
                     <span
                       className={`text-xs font-black tracking-wider px-1.5 py-0.5 rounded ${
-                        isActive ? 'bg-blue-800 text-white' : 'bg-slate-100 text-slate-500'
+                        isActive ? 'bg-blue-900 text-white' : 'bg-slate-200 text-slate-800'
                       }`}
                     >
                       {step.number}
                     </span>
                     <StepIcon
                       className={`w-4 h-4 transition-transform group-hover:scale-110 ${
-                        isActive ? 'text-white' : 'text-slate-400 group-hover:text-blue-700'
+                        isActive ? 'text-white' : 'text-slate-600 group-hover:text-blue-800'
                       }`}
                     />
                   </div>
                   <div>
-                    <div className="text-xs font-extrabold leading-tight">
+                    <div className={`text-xs font-extrabold leading-tight ${isActive ? 'text-white' : 'text-slate-900'}`}>
                       {step.shortLabel}
                     </div>
                     <div
-                      className={`text-[10px] truncate mt-0.5 ${
-                        isActive ? 'text-blue-100' : 'text-slate-400'
+                      className={`text-[11px] font-semibold truncate mt-0.5 ${
+                        isActive ? 'text-white' : 'text-slate-600'
                       }`}
                     >
                       {step.timeframe}
@@ -359,7 +359,7 @@ export const RestorationProcessTimeline: React.FC = () => {
                   <span>Previous Step</span>
                 </button>
 
-                <div className="text-xs font-extrabold text-slate-400 px-2">
+                <div className="text-xs font-black text-slate-800 px-3 py-1 bg-slate-100 rounded-lg">
                   {activeStepIndex + 1} / {PROCESS_STEPS.length}
                 </div>
 
