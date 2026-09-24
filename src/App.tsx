@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { PageTab, DispatchFormData } from './types';
 import { SERVICES } from './data/restorationData';
 import { ALL_SERVICES } from './data/allServicesData';
@@ -44,6 +44,51 @@ export default function App() {
     ALL_SERVICES.find((s) => s.id === selectedServiceId) ||
     SERVICES.find((s) => s.id === selectedServiceId) ||
     ALL_SERVICES[0];
+
+  // Dynamic SEO Title & Meta Description for Crawler and Browser UX
+  useEffect(() => {
+    let title = "McKinney Flood & Water Damage Restoration | 24/7 Emergency Service TX";
+    let desc = "24/7 emergency water damage restoration, flood water extraction, mold remediation, and structural drying in McKinney, TX (75069, 75070, 75071).";
+
+    switch (currentTab) {
+      case 'home':
+        title = "McKinney Flood & Water Damage Restoration | 24/7 Emergency Service TX";
+        desc = "24/7 emergency water damage restoration, flood water extraction, mold remediation, and structural drying in McKinney, TX (75069, 75070, 75071). Quick service & 100% hassle-free restoration.";
+        break;
+      case 'services':
+        title = "50 Water Damage Restoration Services | McKinney, TX (75069, 75070, 75071)";
+        desc = "Explore our 50 specialized water damage restoration, mold remediation, sewage cleanup, and drying services available 24/7 across McKinney, Texas.";
+        break;
+      case 'service-detail':
+        if (activeService) {
+          title = `${activeService.title} | McKinney, TX Restoration Experts`;
+          desc = `${activeService.shortDesc} Available 24/7 in McKinney, TX with rapid emergency dispatch and thermal drying.`;
+        }
+        break;
+      case 'service-areas':
+        title = "Water Damage Service Areas in McKinney, TX | Zip Codes 75069, 75070, 75071";
+        desc = "24/7 local emergency dispatch across Stonebridge Ranch, Craig Ranch, Historic Downtown, and all McKinney neighborhoods.";
+        break;
+      case 'emergency-guide':
+        title = "Emergency Water Damage Action Guide | What To Do First in McKinney, TX";
+        desc = "Critical step-by-step homeowner instructions to shut off water, prevent mold, and protect electrical systems during a McKinney flood.";
+        break;
+      case 'about':
+        title = "About McKinney Flood & Water Damage Restoration | Certified Texas Restorers";
+        desc = "Learn about our local Collin County restoration team, commercial equipment, and IICRC-certified master water extraction specialists.";
+        break;
+      case 'contact':
+        title = "Contact 24/7 Emergency Water Dispatch | McKinney, TX (844) 745-3029";
+        desc = "Call our local McKinney restoration hotline at (844) 745-3029 for immediate emergency water extraction and flood cleanup.";
+        break;
+    }
+
+    document.title = title;
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      metaDesc.setAttribute('content', desc);
+    }
+  }, [currentTab, activeService]);
 
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col text-slate-900 font-sans selection:bg-blue-600 selection:text-white">

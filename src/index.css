@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Improve Core Web Vitals (CLS & LCP) image rendering */
+  img {
+    content-visibility: auto;
+  }
+}

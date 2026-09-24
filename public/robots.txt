@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Direct sitemap location
+Sitemap: https://mckinneyfloodrestoration.com/sitemap.xml

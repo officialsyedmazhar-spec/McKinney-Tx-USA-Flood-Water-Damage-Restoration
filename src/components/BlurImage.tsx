@@ -12,6 +12,24 @@ interface BlurImageProps {
 }
 
 /**
+ * Formats an image URL to modern lightweight WebP web image format
+ */
+function optimizeWebImageUrl(url: string): string {
+  if (!url) return '';
+  if (url.includes('images.unsplash.com')) {
+    let cleanUrl = url;
+    if (!cleanUrl.includes('fm=')) {
+      cleanUrl += '&fm=webp';
+    }
+    if (!cleanUrl.includes('q=')) {
+      cleanUrl += '&q=75';
+    }
+    return cleanUrl;
+  }
+  return url;
+}
+
+/**
  * Generates a lightweight, low-quality image placeholder (LQIP) URL.
  * For Unsplash images, creates a micro-resolution 30px blurred thumbnail (~500 bytes).
  */
@@ -32,6 +50,9 @@ function getLqipUrl(url: string): string {
     }
     if (!lqip.includes('blur=')) {
       lqip += '&blur=15';
+    }
+    if (!lqip.includes('fm=webp')) {
+      lqip += '&fm=webp';
     }
     return lqip;
   }
@@ -76,10 +97,10 @@ export const BlurImage: React.FC<BlurImageProps> = ({
         </div>
       )}
 
-      {/* Main Full-Resolution Image */}
+      {/* Main Full-Resolution Image (WebP Optimized) */}
       {!hasError ? (
         <img
-          src={src}
+          src={optimizeWebImageUrl(src)}
           alt={alt}
           loading={priority ? 'eager' : 'lazy'}
           decoding="async"
